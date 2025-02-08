@@ -1,0 +1,163 @@
+|--- Shell weight <= -0.81
+|   |--- Sex_I <= 0.50
+|   |   |--- Viscera weight <= -1.58
+|   |   |   |--- class: 1
+|   |   |--- Viscera weight >  -1.58
+|   |   |   |--- Shucked weight <= -0.73
+|   |   |   |   |--- Shucked weight <= -1.43
+|   |   |   |   |   |--- Shucked weight <= -1.48
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Shucked weight >  -1.48
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |--- Shucked weight >  -1.43
+|   |   |   |   |   |--- Diameter <= -1.64
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Diameter >  -1.64
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |--- Shucked weight >  -0.73
+|   |   |   |   |--- Viscera weight <= -0.45
+|   |   |   |   |   |--- Viscera weight <= -0.60
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Viscera weight >  -0.60
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Viscera weight >  -0.45
+|   |   |   |   |   |--- Height <= -0.67
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Height >  -0.67
+|   |   |   |   |   |   |--- class: 3
+|   |--- Sex_I >  0.50
+|   |   |--- Shell weight <= -1.24
+|   |   |   |--- Height <= -1.37
+|   |   |   |   |--- Shell weight <= -1.63
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Shell weight >  -1.63
+|   |   |   |   |   |--- Shucked weight <= -1.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Shucked weight >  -1.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Height >  -1.37
+|   |   |   |   |--- Whole weight <= -1.32
+|   |   |   |   |   |--- Shucked weight <= -1.24
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Shucked weight >  -1.24
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Whole weight >  -1.32
+|   |   |   |   |   |--- class: 1
+|   |   |--- Shell weight >  -1.24
+|   |   |   |--- Height <= -0.38
+|   |   |   |   |--- Shucked weight <= -1.10
+|   |   |   |   |   |--- Shucked weight <= -1.11
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Shucked weight >  -1.11
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Shucked weight >  -1.10
+|   |   |   |   |   |--- Height <= -1.51
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Height >  -1.51
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Height >  -0.38
+|   |   |   |   |--- Length <= -0.73
+|   |   |   |   |   |--- Shucked weight <= -1.08
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Shucked weight >  -1.08
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- Length >  -0.73
+|   |   |   |   |   |--- Diameter <= -0.81
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Diameter >  -0.81
+|   |   |   |   |   |   |--- class: 1
+|--- Shell weight >  -0.81
+|   |--- Shell weight <= 0.42
+|   |   |--- Shucked weight <= 0.04
+|   |   |   |--- Shell weight <= -0.17
+|   |   |   |   |--- Shucked weight <= -0.68
+|   |   |   |   |   |--- Shell weight <= -0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Shell weight >  -0.50
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- Shucked weight >  -0.68
+|   |   |   |   |   |--- Shell weight <= -0.64
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Shell weight >  -0.64
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |--- Shell weight >  -0.17
+|   |   |   |   |--- Diameter <= 0.02
+|   |   |   |   |   |--- Whole weight <= -0.03
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |--- Whole weight >  -0.03
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- Diameter >  0.02
+|   |   |   |   |   |--- Shell weight <= 0.09
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- Shell weight >  0.09
+|   |   |   |   |   |   |--- class: 5
+|   |   |--- Shucked weight >  0.04
+|   |   |   |--- Shell weight <= -0.02
+|   |   |   |   |--- Diameter <= 0.57
+|   |   |   |   |   |--- Shucked weight <= 0.19
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Shucked weight >  0.19
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Diameter >  0.57
+|   |   |   |   |   |--- Viscera weight <= 0.48
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- Viscera weight >  0.48
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |--- Shell weight >  -0.02
+|   |   |   |   |--- Shucked weight <= 0.82
+|   |   |   |   |   |--- Shell weight <= 0.38
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- Shell weight >  0.38
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- Shucked weight >  0.82
+|   |   |   |   |   |--- Sex_I <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Sex_I >  0.50
+|   |   |   |   |   |   |--- class: 4
+|   |--- Shell weight >  0.42
+|   |   |--- Shucked weight <= 0.44
+|   |   |   |--- Shell weight <= 0.90
+|   |   |   |   |--- Shucked weight <= 0.24
+|   |   |   |   |   |--- Whole weight <= -0.24
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- Whole weight >  -0.24
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- Shucked weight >  0.24
+|   |   |   |   |   |--- Shucked weight <= 0.40
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- Shucked weight >  0.40
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |--- Shell weight >  0.90
+|   |   |   |   |--- Shucked weight <= 0.11
+|   |   |   |   |   |--- Whole weight <= 0.80
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |--- Whole weight >  0.80
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- Shucked weight >  0.11
+|   |   |   |   |   |--- Whole weight <= 0.87
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |--- Whole weight >  0.87
+|   |   |   |   |   |   |--- class: 5
+|   |   |--- Shucked weight >  0.44
+|   |   |   |--- Shell weight <= 1.74
+|   |   |   |   |--- Shell weight <= 1.04
+|   |   |   |   |   |--- Length <= 0.39
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- Length >  0.39
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- Shell weight >  1.04
+|   |   |   |   |   |--- Shucked weight <= 1.15
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |--- Shucked weight >  1.15
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |--- Shell weight >  1.74
+|   |   |   |   |--- Shucked weight <= 1.20
+|   |   |   |   |   |--- Viscera weight <= 0.07
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- Viscera weight >  0.07
+|   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- Shucked weight >  1.20
+|   |   |   |   |   |--- Shell weight <= 2.91
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- Shell weight >  2.91
+|   |   |   |   |   |   |--- class: 5

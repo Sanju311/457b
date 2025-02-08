@@ -1,0 +1,100 @@
+|--- chlorides <= -0.06
+|   |--- total sulfur dioxide <= -0.87
+|   |   |--- sulphates <= -0.99
+|   |   |   |--- alcohol <= -0.92
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- alcohol >  -0.92
+|   |   |   |   |--- class: 0.0
+|   |   |--- sulphates >  -0.99
+|   |   |   |--- pH <= -1.67
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- pH >  -1.67
+|   |   |   |   |--- class: 1.0
+|   |--- total sulfur dioxide >  -0.87
+|   |   |--- pH <= 1.71
+|   |   |   |--- total sulfur dioxide <= -0.42
+|   |   |   |   |--- chlorides <= -0.64
+|   |   |   |   |   |--- quality <= 0.86
+|   |   |   |   |   |   |--- volatile acidity <= -0.11
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- volatile acidity >  -0.11
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- quality >  0.86
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- chlorides >  -0.64
+|   |   |   |   |   |--- quality <= -1.47
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- quality >  -1.47
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- total sulfur dioxide >  -0.42
+|   |   |   |   |--- chlorides <= -2.22
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- chlorides >  -2.22
+|   |   |   |   |   |--- total sulfur dioxide <= 2.92
+|   |   |   |   |   |   |--- sulphates <= 5.27
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- sulphates >  5.27
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- total sulfur dioxide >  2.92
+|   |   |   |   |   |   |--- volatile acidity <= -0.60
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- volatile acidity >  -0.60
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |--- pH >  1.71
+|   |   |   |--- volatile acidity <= -0.53
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- volatile acidity >  -0.53
+|   |   |   |   |--- total sulfur dioxide <= 0.35
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- total sulfur dioxide >  0.35
+|   |   |   |   |   |--- class: 0.0
+|--- chlorides >  -0.06
+|   |--- total sulfur dioxide <= 0.33
+|   |   |--- sulphates <= -1.23
+|   |   |   |--- class: 0.0
+|   |   |--- sulphates >  -1.23
+|   |   |   |--- density <= -1.37
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- density >  -1.37
+|   |   |   |   |--- residual sugar <= 1.76
+|   |   |   |   |   |--- volatile acidity <= -0.97
+|   |   |   |   |   |   |--- total sulfur dioxide <= -0.18
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- total sulfur dioxide >  -0.18
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- volatile acidity >  -0.97
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- residual sugar >  1.76
+|   |   |   |   |   |--- pH <= -0.94
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- pH >  -0.94
+|   |   |   |   |   |   |--- class: 1.0
+|   |--- total sulfur dioxide >  0.33
+|   |   |--- volatile acidity <= -0.08
+|   |   |   |--- sulphates <= 1.26
+|   |   |   |   |--- free sulfur dioxide <= 2.68
+|   |   |   |   |   |--- fixed acidity <= 0.50
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- fixed acidity >  0.50
+|   |   |   |   |   |   |--- alcohol <= -0.71
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- alcohol >  -0.71
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- free sulfur dioxide >  2.68
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- sulphates >  1.26
+|   |   |   |   |--- class: 1.0
+|   |   |--- volatile acidity >  -0.08
+|   |   |   |--- total sulfur dioxide <= 1.18
+|   |   |   |   |--- density <= -0.03
+|   |   |   |   |   |--- alcohol <= 0.03
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- alcohol >  0.03
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- density >  -0.03
+|   |   |   |   |   |--- residual sugar <= 0.84
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- residual sugar >  0.84
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- total sulfur dioxide >  1.18
+|   |   |   |   |--- class: 0.0

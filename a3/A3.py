@@ -23,6 +23,7 @@ x_test = x_test.reshape(-1, 28, 28, 1).astype('float32') / 255.0
 y_train = to_categorical(y_train, num_classes=5)
 y_test = to_categorical(y_test, num_classes=5)
 
+
 # Define the model
 model = Sequential([
     # First convolutional layer: 32 filters of size 3x3, stride 1, padding='same'
